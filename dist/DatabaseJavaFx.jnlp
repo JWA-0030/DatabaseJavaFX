@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="DatabaseJavaFx.jnlp">
+  <information>
+    <title>DatabaseJavaFx</title>
+    <vendor>jesse</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="DatabaseJavaFx.jar" size="10207" download="eager" />
+    <jar href="lib\postgresql-9.4.1212.jre6 (1).jar" size="676247" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="DatabaseJavaFx" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="databasejavafx.DatabaseJavaFx"  name="DatabaseJavaFx" />
+  <update check="always"/>
+</jnlp>
